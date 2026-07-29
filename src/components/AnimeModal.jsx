@@ -331,7 +331,7 @@ export function AnimeModal() {
             </div>
 
             {/* Body */}
-            <div className="p-6 md:p-10 relative -mt-32 md:-mt-48 z-10">
+            <div className="p-4 md:p-10 relative -mt-16 md:-mt-48 z-10">
               <div className="flex flex-col md:flex-row gap-8">
                 
                 {/* Poster (Desktop only) */}

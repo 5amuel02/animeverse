@@ -60,25 +60,25 @@ export default function HeroSlider({ items, onOpenModal }) {
                         <span className="px-2 py-0.5 bg-white/10 text-slate-200 rounded text-xs font-bold border border-white/20">{anime.type || 'TV'}</span>
                       </div>
                       
-                      <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.1] mb-6 drop-shadow-2xl">
+                      <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-[1.1] mb-4 md:mb-6 drop-shadow-2xl">
                         {anime.title}
                       </h1>
                       
-                      <p className="text-slate-300 text-sm md:text-lg line-clamp-3 mb-8 max-w-2xl drop-shadow-md leading-relaxed font-medium">
+                      <p className="text-slate-300 text-xs sm:text-sm md:text-lg line-clamp-3 mb-6 md:mb-8 max-w-2xl drop-shadow-md leading-relaxed font-medium">
                         {anime.synopsis ? anime.synopsis.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') : "Sinopsis belum tersedia."}
                       </p>
                       
-                      <div className="flex items-center gap-4">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
                         <button 
                           onClick={() => onOpenModal(anime)}
-                          className="group flex items-center gap-3 bg-white text-black px-8 py-4 rounded-xl font-extrabold text-lg hover:bg-anime-primary hover:text-white transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-anime-primary/50"
+                          className="group w-full sm:w-auto justify-center flex items-center gap-2 sm:gap-3 bg-white text-black px-6 py-3 md:px-8 md:py-4 rounded-xl font-extrabold text-sm md:text-lg hover:bg-anime-primary hover:text-white transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-anime-primary/50"
                         >
-                          <Play size={24} fill="currentColor" className="group-hover:animate-pulse" />
+                          <Play size={20} fill="currentColor" className="group-hover:animate-pulse md:w-6 md:h-6" />
                           Putar Trailer
                         </button>
                         <button 
                           onClick={() => onOpenModal(anime)}
-                          className="flex items-center gap-3 bg-slate-800/80 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-700 backdrop-blur-md transition-all duration-300 border border-white/10"
+                          className="flex w-full sm:w-auto justify-center items-center gap-2 sm:gap-3 bg-slate-800/80 text-white px-6 py-3 md:px-8 md:py-4 rounded-xl font-bold text-sm md:text-lg hover:bg-slate-700 backdrop-blur-md transition-all duration-300 border border-white/10"
                         >
                           ℹ️ Info Selengkapnya
                         </button>

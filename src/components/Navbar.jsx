@@ -44,19 +44,19 @@ export default function Navbar({ onSearch }) {
             onClick={() => { setActiveTab('home'); onSearch(''); setSearchQuery(''); }}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all text-xs font-semibold ${activeTab === 'home' ? 'bg-anime-primary/20 text-anime-primary' : 'text-slate-400 hover:text-white'}`}
           >
-            <Home size={16} /> <span className="hidden xs:inline">Home</span>
+            <Home size={16} /> <span className="hidden sm:inline">Home</span>
           </button>
           <button 
             onClick={() => setActiveTab('schedule')}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all text-xs font-semibold ${activeTab === 'schedule' ? 'bg-anime-primary/20 text-anime-primary' : 'text-slate-400 hover:text-white'}`}
           >
-            <Calendar size={16} /> <span className="hidden xs:inline">Jadwal</span>
+            <Calendar size={16} /> <span className="hidden sm:inline">Jadwal</span>
           </button>
           <button 
             onClick={() => setActiveTab('watchlist')}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all text-xs font-semibold ${activeTab === 'watchlist' ? 'bg-anime-primary/20 text-anime-primary' : 'text-slate-400 hover:text-white'}`}
           >
-            <Heart size={16} /> <span className="hidden xs:inline">List</span>
+            <Heart size={16} /> <span className="hidden sm:inline">List</span>
           </button>
         </div>
       </div>
