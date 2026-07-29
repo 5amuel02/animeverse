@@ -1,5 +1,7 @@
 # AnimeVerse 🌌
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blue?style=for-the-badge)](https://5amuel02.github.io/animeverse/)
+
 AnimeVerse adalah platform web modern untuk mencari, menemukan, dan melihat informasi seputar anime. Dibangun dengan desain antarmuka yang premium, animasi yang mulus, dan fitur cerdas untuk memaksimalkan pengalaman pengguna.
 
 ## ✨ Fitur Utama
@@ -30,7 +32,7 @@ AnimeVerse adalah platform web modern untuk mencari, menemukan, dan melihat info
 1. Pastikan Anda telah menginstal Node.js di komputer Anda.
 2. *Clone repository* ini:
    ```bash
-   git clone https://github.com/username/animeverse.git
+   git clone https://github.com/5amuel02/animeverse.git
    ```
 3. Masuk ke folder proyek:
    ```bash
