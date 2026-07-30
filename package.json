@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "author": "Samuel <samuelmanik40@gmail.com>",
+  "keywords": ["anime", "react", "vite", "jikan-api"],
   "type": "module",
   "homepage": "https://5amuel02.github.io/animeverse",
   "scripts": {
